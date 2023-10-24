@@ -81,7 +81,7 @@ export class ProductManager {
             await fs.promises.writeFile(this.path, JSON.stringify(productos));
             console.log('Producto encontrado');
         } else {
-            console.log('no se ecnontro');
+            console.log('no se ecnontror');
         }
     }
     
