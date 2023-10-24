@@ -105,6 +105,23 @@ export class ProductManager {
 
 
 }
+// const test = async () => {
+//     await productManager.getDeleteProduct(1)
+//     await productManager.getDeleteProduct(2)
+
+//     const updatedProductModi={
+//         title:'nuevo',
+//         description:'nuevos',
+//         price:200,
+//         thumbnail:'nuevo img',
+//         code:3,
+//         stock:34
+//     }
+//     await productManager.updateProduct(1,updatedProductModi)
+
+// };
+
+// test();
 
 
 
